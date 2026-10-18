@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRON FIT | Gym & Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">IRON<span>FIT</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#programs">Programs</a>
+      <a href="#plans">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="join-btn" href="#plans">Join Now</a>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tagline">NO EXCUSES. JUST RESULTS.</p>
+      <h1>BUILD YOUR<br> <span>BEST BODY</span></h1>
+      <p>Train harder. Become stronger. Transform your life
+        with expert trainers and personalized workout plans.</p>
+      <a href="#plans" class="main-btn">START YOUR JOURNEY</a>
+    </div>
+  </section>
+
+  <section class="section" id="programs">
+    <p class="tagline">WHAT WE OFFER</p>
+    <h2>OUR PROGRAMS</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="emoji">🏋️</div>
+        <h3>Strength Training</h3>
+        <p>Build muscle and improve your overall strength.</p>
+      </article>
+      <article class="card">
+        <div class="emoji">🔥</div>
+        <h3>Fat Loss</h3>
+        <p>Improve endurance and work towards your fitness goals.</p>
+      </article>
+      <article class="card">
+        <div class="emoji">💪</div>
+        <h3>Personal Training</h3>
+        <p>Get a customized fitness plan with expert guidance.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section plans" id="plans">
+    <p class="tagline">CHOOSE YOUR PLAN</p>
+    <h2>MEMBERSHIP PLANS</h2>
+    <div class="cards">
+      <article class="card plan">
+        <h3>Basic</h3>
+        <h2>₹999<span>/month</span></h2>
+        <p>Gym access</p>
+        <p>Basic workout plan</p>
+        <button onclick="joinPlan('Basic')">Choose Plan</button>
+      </article>
+      <article class="card plan featured">
+        <h3>Premium</h3>
+        <h2>₹1,999<span>/month</span></h2>
+        <p>Full gym access</p>
+        <p>Personalized workout plan</p>
+        <button onclick="joinPlan('Premium')">Choose Plan</button>
+      </article>
+      <article class="card plan">
+        <h3>Elite</h3>
+        <h2>₹2,999<span>/month</span></h2>
+        <p>All premium benefits</p>
+        <p>Personal trainer sessions</p>
+        <button onclick="joinPlan('Elite')">Choose Plan</button>
+      </article>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <p class="tagline">GET STARTED TODAY</p>
+    <h2>CONTACT US</h2>
+    <form id="contactForm">
+      <input id="name" type="text" placeholder="Your Name" required>
+      <input id="email" type="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="result"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 IRON FIT Gym. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  
